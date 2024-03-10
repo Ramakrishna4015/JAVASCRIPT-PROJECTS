@@ -7,7 +7,7 @@ body{
     justify-content: center;
     height: 100vh;
 }
-.container{
+.carousel-container{
     width: 400px;
     text-align: center;
 }

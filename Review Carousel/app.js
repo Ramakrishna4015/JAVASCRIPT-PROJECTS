@@ -11,3 +11,15 @@ const reviews =[
 }
 
 ];
+let currentReviewIndex = 0;
+        const reviewText = document.querySelector(".review");
+        const authorText = document.querySelector(".author");
+
+        function showNextReview() {
+            currentReviewIndex = (currentReviewIndex + 1) % reviews.length;
+            reviewText.textContent = reviews[currentReviewIndex].text;
+            authorText.textContent = `- ${reviews[currentReviewIndex].author}`;
+        }
+
+        
+        showNextReview();
