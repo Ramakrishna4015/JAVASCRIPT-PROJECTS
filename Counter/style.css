@@ -1,0 +1,44 @@
+body{
+    display: block;
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: darkcyan;
+}
+#value{
+    margin-left: 10px;
+    font-size:x-large;
+    font-weight: bold;
+}
+#inc-btn, #dec-btn ,#reset{
+    margin-top: 25px;
+    padding: 10px 10px 10px ;
+    
+    border-radius: 50px;
+    transition: background-color 3s ease;
+
+     
+   
+} 
+#btns{
+    display: block;
+    align-content: space-between;
+    justify-content: space-evenly;
+}
+#btns button {
+    margin-right: 100px;
+
+}
+#btns button:hover{
+    cursor: pointer;
+    color: azure;
+    background-color: rgb(138, 43, 226);
+    transition: background-color 0.35s ease;
+    
+
+}
+.footer{
+    display: flex;
+    align-content: end;
+    justify-content: end;
+
+}
