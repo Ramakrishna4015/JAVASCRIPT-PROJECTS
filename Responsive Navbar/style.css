@@ -1,0 +1,11 @@
+.nav-bar{
+    background-color: grey;
+    padding: 10px;
+    
+}
+a{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: azure;
+}
